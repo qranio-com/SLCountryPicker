@@ -11,5 +11,6 @@
 @property (nonatomic, copy) NSString *selectedCountryCode;
 @property (nonatomic, copy) void (^completionBlock)(NSString *country, NSString *code);
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, copy) NSArray *availableCountry;
 
 @end
