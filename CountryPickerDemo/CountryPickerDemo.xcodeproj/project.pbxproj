@@ -226,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -481,6 +482,7 @@
 				D0C16F5F1844FA5C00EF63BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C16F601844FA5C00EF63BE /* Build configuration list for PBXNativeTarget "CountryPickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +491,7 @@
 				D0C16F621844FA5C00EF63BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
