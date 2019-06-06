@@ -54,12 +54,9 @@ static NSString *featureIndexTitle = @"\u2605";
         
         NSString *displayNameString = [locale displayNameForKey:NSLocaleCountryCode value:countryCode];
         NSDictionary *cd = @{@"name": displayNameString, @"code":countryCode};
+        [countriesUnsorted addObject:cd];
         
-        if (self.availableCountry == nil || [self.availableCountry containsObject: countryCode]) {
-            [countriesUnsorted addObject:cd];
-        }
     }
-    
     _sections = [self partitionObjects:countriesUnsorted collationStringSelector:@selector(self)];
     
     if (self.preferredCountryCodes) {

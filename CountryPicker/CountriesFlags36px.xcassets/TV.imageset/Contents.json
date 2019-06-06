@@ -2,17 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "TV.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "TV.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "TV@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "2x",
+      "filename" : "TV@2x.png"
     }
   ],
   "info" : {

@@ -2,17 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "MX.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "MX.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "MX@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "2x",
+      "filename" : "MX@2x.png"
     }
   ],
   "info" : {
