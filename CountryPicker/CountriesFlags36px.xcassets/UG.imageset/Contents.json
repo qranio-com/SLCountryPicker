@@ -2,17 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "UG.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "UG.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "UG@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "2x",
+      "filename" : "UG@2x.png"
     }
   ],
   "info" : {

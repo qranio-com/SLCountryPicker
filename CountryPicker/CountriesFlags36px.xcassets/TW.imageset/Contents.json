@@ -2,17 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "TW.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "TW.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "TW@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "2x",
+      "filename" : "TW@2x.png"
     }
   ],
   "info" : {
