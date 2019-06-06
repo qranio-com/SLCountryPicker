@@ -30,6 +30,12 @@
 }
 - (IBAction)chooseCountry:(id)sender {
     SLCountryPickerViewController *vc = [[SLCountryPickerViewController alloc]init];
+    NSArray *array = [[NSArray alloc] initWithObjects:@"BR",@"US", @"MX", @"ES", nil];
+    NSArray *array2 = [[NSArray alloc] initWithObjects:@"BR",@"US", @"MX", nil];
+
+    vc.availableCountry = array2;
+    vc.preferredCountryCodes = array;
+
     vc.completionBlock = ^(NSString *country, NSString *code){
         _countryNameLabel.text = country;
         _countryImageView.image = [UIImage imageNamed:code];
