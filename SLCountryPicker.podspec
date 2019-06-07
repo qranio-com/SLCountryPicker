@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "SLCountryPicker"
-  s.version      = "0.0.5"
-  s.summary      = "Country picker table view controller for iOS 7+"
+  s.version      = "0.0.7"
+  s.summary      = "Country picker table view controller for iOS 8+"
   s.description  = <<-DESC
 Table view controller with searchable list of countries with completion block and dynamic fonts support.
                    DESC
