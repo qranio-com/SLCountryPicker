@@ -215,7 +215,7 @@ static NSString *featureIndexTitle = @"\u2605";
         cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     }
 
-    cell.imageView.image = [UIImage imageNamed:cd[@"code"]];
+    cell.imageView.image = [UIImage imageNamed:cd[@"code"] inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
     NSLog(@"%@", cd[@"code"]);
     return cell;
 }
